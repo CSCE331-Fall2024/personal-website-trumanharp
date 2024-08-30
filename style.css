@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background-color: #bfbfbfff;
+    background-image: linear-gradient(#bfbfbfff,#526e8aff);
+    
+}
+  
+.centered_title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52pt;
+    color: black;
+    /*margin-left: 20px;*/
+    margin-bottom: 0;
+  }
+
+#landing_name {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 26pt;
+    color: black;
+    margin: 12px;
+    margin-bottom: 8%;
+}
+
+#selfie {
+    width:25%;
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+    float: left;
+    display: inline;
+}
+
+#bio {
+    width:60%;
+    display: inline;
+    float: left;
+}
+
+.bio_header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+}
