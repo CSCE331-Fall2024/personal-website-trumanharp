@@ -20,7 +20,7 @@ body {
     font-size: 26pt;
     color: black;
     margin: 12px;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
 }
 
 #selfie {
@@ -40,4 +40,43 @@ body {
 .bio_header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24pt;
+}
+
+#landing_content {
+    margin:10px;
+    overflow:hidden;
+}
+p {
+    font-size: 19pt;
+}
+#nav_menu {
+    margin-top: 45px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 11%;
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}
+#nav_menu a {
+background-color: #bfbfbfff;
+color: black;
+width: 35vh;
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+text-decoration: none;
+align-items: center;
+display: inline-block;
+position: relative;
+border-top-left-radius: 35px;
+border-top-right-radius: 35px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20pt;
 }
