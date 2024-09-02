@@ -80,3 +80,15 @@ border-style: solid;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20pt;
 }
+
+#github_link_container {
+    width:25%;
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+    float: left;
+    display: inline;
+}
+.gh_link_header {
+    margin-top: 32px;
+    font-size: 24pt;
+}
