@@ -92,3 +92,25 @@ font-size: 20pt;
     margin-top: 32px;
     font-size: 24pt;
 }
+#qual_link_container {
+    width:25%;
+    margin-right: 6.25%;
+    margin-left: 6.25%;
+    float: left;
+    display: inline;
+}
+
+#icon_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 6%;
+    
+}
+.qual_icon {
+    display: inline-block;
+    width: 12%;
+    align-items: center;
+    position: relative;
+}
