@@ -114,3 +114,19 @@ font-size: 20pt;
     align-items: center;
     position: relative;
 }
+
+.service_link {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20pt;
+}
+
+.service_img {
+    width: 48%;
+}
+
+#corps {
+    margin-top: 20px;
+    position: relative;
+    bottom: 20px;
+}
