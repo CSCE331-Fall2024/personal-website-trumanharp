@@ -46,6 +46,14 @@ body {
     margin-top: 10px;
   }
 
+  #qual_content {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    align-items: center;
+    margin-top: 10px;
+  }
+
   #selfie {
     max-width: 400px;
     border-radius: 10px;
@@ -117,4 +125,27 @@ body {
 }
 .port_header {
   text-align: center;
+}
+
+#icon_bar {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.qual_icon {
+  width: 140px;
+
+}
+
+#qual_link_container a {
+  display: block;
+    text-align: center;
+    font-size:auto;
+    background-color: black;
+    padding: 30px 20px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
 }
