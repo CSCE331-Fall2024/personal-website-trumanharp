@@ -94,6 +94,10 @@ font-size: 20pt;
     margin-top: 32px;
     font-size: 24pt;
 }
+
+#github_link_container a {
+    display:block;
+}
 #qual_link_container {
     width:25%;
     margin-right: 6.25%;
