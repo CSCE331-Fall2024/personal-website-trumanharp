@@ -26,13 +26,24 @@ body {
   #nav_menu a:hover {
     text-decoration: underline;
   }
+  .centered_title {
+    text-align: center;
+    margin-top: 15.5vh;
+    margin-bottom: 0px;
+    font-size: 40pt;
+  }
+  #landing_name {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 10px;
+  }
   
   #landing_content {
     display: flex;
     justify-content: center;
     gap: 4%;
     align-items: center;
-    margin-top: 160px;
+    margin-top: 10px;
   }
 
   #selfie {
@@ -84,10 +95,26 @@ body {
     display: none !important; 
   }
 
-  #portfolio_content {
-    width: 80%;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-  }
+#portfolio_content {
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+#port {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 20px;
+}
+.portfolio_item {
+  text-align: justify;
+  width: 100%;
+  font-size: 20pt;
+}
+.port_header {
+  text-align: center;
+}
