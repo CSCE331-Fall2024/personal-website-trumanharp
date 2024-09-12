@@ -44,7 +44,7 @@ body {
     font-size: 24pt;
 }
 
-#landing_content {
+#landing_content, #service_content {
     margin:10px;
     overflow:hidden;
 }
@@ -83,14 +83,14 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 20pt;
 }
 
-#github_link_container {
+#github_link_container, #service_link_container {
     width:25%;
     margin-right: 6.25%;
     margin-left: 6.25%;
     float: left;
     display: inline;
 }
-.gh_link_header {
+.gh_link_header, #service_link_header {
     margin-top: 32px;
     font-size: 24pt;
 }
