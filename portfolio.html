@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="icon" href="">
-  <link rel="stylesheet" href="style.css">
+  <link id= "default" rel="stylesheet" href="style.css">
+  <link id="alternate" rel="stylesheet" href="style2.css">
 </head>
 <body>
   <h1 class="centered_title">Technical Portfolio</h1>
@@ -16,35 +17,44 @@
     <a href="qualifications.html">Qualifications</a>
     <a href="service.html">Service</a>
     <a href="ai.html">AI Page</a>
+    <label class="switch">
+      <input type="checkbox" id ="toggle">
+      <span class="slider"></span>
+    </label>
   </div>
   <div id="landing_content">
     <!--<img id="selfie" src="media/me.png" alt="Photo of Truman Harp">-->
   <div id="portfolio_content">
     <div id="github_link_container">
       <h3 class="gh_link_header">BG3 Warforged</h3>
-      <a href="https://github.com/TrumanHarp/BG3WarforgedRace">BG3Warforged - Github</a>
-      <a id="nexusmods" href="https://www.nexusmods.com/baldursgate3/mods/5665">BG3Warforged - NexusMods</a>
+      <div class="doubled">
+        <a href="https://github.com/TrumanHarp/BG3WarforgedRace">BG3Warforged - Github</a>
+        <a id="nexusmod" href="https://www.nexusmods.com/baldursgate3/mods/5665">BG3Warforged - NexusMods</a>
+      </div>
       <h3 class="gh_link_header">Wordle Project</h3>
       <a href="https://github.com/TrumanHarp/wordle_project">WorldeProject - Github</a>
       <h3 class="gh_link_header">Project Zomboid Mod</h3>
-      <a href="https://github.com/TrumanHarp/PZ_MakePillows">PZ_MakePillows - Github</a>
+      <div class="doubled">
+        <a href="https://github.com/TrumanHarp/PZ_MakePillows">PZ_MakePillows - Github</a>
+        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2803494251">PZ_MakePillows - Steam Workshop</a>
+      </div>
     </div>
     <div id="port">
       <div class="portfolio_item">
         <h3 class="port_header">BG3 Warforged</h3>
-        <p>This is a mod for the game Baldur’s Gate 3 (which won game of the year). It adds a new playable race to the game, the warforged. In this project I learned to analyze json files and learned a lot about large game structure and processes. I have a couple similar, unfinished mods that are still private.</p>
+        <p>This is a mod for the game Baldur’s Gate 3 (which won game of the year). It adds a new playable race to the game, the warforged. In this project I learned to analyze json files and learned a lot about large game structure and processes. This project in total has taken probably close to 50 hours to complete, and has been downloaded and used by thousands of people, so I'm very proud of it. I'm still updating it relatively regularly, and am looking for someone to help me create models. I have created a couple more mods for Baldur's Gate 3 which are private or unfinished, as well as contributed to a couple community mods that are XML and Noesis GUI files.</p>
       </div>
       <div class="portfolio_item">
         <h3 class="port_header">Wordle Project</h3>
-        <p>This is a wordle clone that I made in java for my CSCE 314 class last year. I learned about java and user interface, and a lot about graphical user interface design.</p>
+        <p>This is a wordle clone that I made in java for my CSCE 314 class last year. I learned about java and user interface, and a lot about graphical user interface design. This project took me several hours to complete, and was part of my final for the class. The game is very user friendly, it has a clean GUI and helpful popup warnings and notifications. I followed object oriented programming, and used collections, inhertiance, a HashMap, and a custom data structure. It also has a File IO system for game saves for replayability.</p>
       </div>
       <div class="portfolio_item">
         <h3 class="port_header">Project Zomboid Mod</h3>
-        <p>This is a mod I wrote for the indie game Project Zomboid. It adjusts the tailoring perk in the game and adds some crafting recipes, like it’s namesake, crafting pillows. I learned a lot about small game structure and design, as well as Lua scripting and how to learn a proprietary info structure.</p>
+        <p>This is a mod I wrote for the indie game Project Zomboid. It adjusts the tailoring perk in the game and adds some crafting recipes, like it’s namesake, crafting pillows. I learned a lot about small game structure and design, as well as Lua scripting and how to learn a proprietary info structure. I also began to learn a bit of 3d modeling and rendering, which is something I had never done before. The documentation for modding Project Zomboid is pretty rudimentary, so I had to learn a lot by dissasembling existing mods and the actual game files.</p>
       </div>  
       </div>
   </div>
   </div>
-  
+  <script src="toggle.js"></script>
 </body>
 </html>

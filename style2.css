@@ -6,6 +6,14 @@ body {
     background-image: linear-gradient(#bfbfbfff,#526e8aff);
     
 }
+a{
+    text-decoration: underline;
+    color: black;
+
+}
+a:hover {
+    font-weight: bold;
+}
   
 .centered_title {
     text-align: center;

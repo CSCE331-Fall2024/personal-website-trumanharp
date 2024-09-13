@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="icon" href="">
-  <link rel="stylesheet" href="style.css">
+  <link id= "default" rel="stylesheet" href="style.css">
+  <link id="alternate" rel="stylesheet" href="style2.css">
 </head>
 <body>
   <h1 class="centered_title">Qualifications</h1>
@@ -16,6 +17,10 @@
     <a href="portfolio.html">Technical Portfolio</a>
     <a href="service.html">Service</a>
     <a href="ai.html">AI Page</a>
+    <label class="switch">
+      <input type="checkbox" id ="toggle">
+      <span class="slider"></span>
+    </label>
   </div>
   <div id="qual_content">
     <!--<img id="selfie" src="media/me.png" alt="Photo of Truman Harp">-->
@@ -39,5 +44,6 @@
     <img src ="media/html.png" class="qual_icon">
   </div>
   <script src="icon_reorder.js"></script>
+  <script src="toggle.js"></script>
 </body>
 </html>

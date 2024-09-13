@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="icon" href="">
-  <link rel="stylesheet" href="style.css">
+  <link id= "default" rel="stylesheet" href="style.css">
+  <link id="alternate" rel="stylesheet" href="style2.css">
 </head>
 <body>
   <h1 class="centered_title">Service</h1>
@@ -16,6 +17,10 @@
     <a href="portfolio.html">Technical Portfolio</a>
     <a href="qualifications.html">Qualifications</a>
     <a href="ai.html">AI Page</a>
+    <label class="switch">
+      <input type="checkbox" id ="toggle">
+      <span class="slider"></span>
+    </label>
   </div>
   <div id="service_content">
     <!--<img id="selfie" src="media/me.png" alt="Photo of Truman Harp">-->
@@ -33,7 +38,7 @@
     <div id="service">
       <div class="service_para">
         <h3 class="bio_header">Corps of Cadets</h3>
-        <p>Through the corps of Cadets, I spend hours every week developing myself, but also the cadets under me. This year I am a squad leader, so I directly take care of and develop 3 sophomores and 3 freshmen.</p>
+        <p>Through the corps of Cadets, I spend hours every week developing myself, but also the cadets under me. This year I am a squad leader in <a id="sq20" href="https://www.instagram.com/squadron20titans/">Squadron 20</a>, so I directly take care of and develop 3 sophomores and 3 freshmen.</p>
       </div>
       <div class="service_para">
         <h3 class="bio_header">O.R. Simpson Honor Society</h3>
@@ -41,6 +46,6 @@
       </div>
     </div>
   </div>
-  
+  <script src="toggle.js"></script>
 </body>
 </html>

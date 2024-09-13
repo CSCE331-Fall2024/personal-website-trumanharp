@@ -75,14 +75,17 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     width: 100%;
     gap: 20px;
   }
 
+  
+  
   #github_link_container a {
     display: block;
     width: 30%;
+    height:fit-content;
     text-align: center;
     font-size:auto;
     background-color: black;
@@ -91,7 +94,22 @@ body {
     text-decoration: none;
     box-sizing: border-box;
   }
-  
+
+  .doubled {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .doubled a{
+    display: block;
+    width: 100% !important;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+
   #github_link_container a:hover {
     text-decoration: underline;
   }
@@ -150,6 +168,10 @@ body {
     text-decoration: none;
     box-sizing: border-box;
 }
+#qual_link_container a:hover {
+  text-decoration: underline;
+}
+
 
 #service_photos {
   display: flex;
